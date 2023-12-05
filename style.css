@@ -1,0 +1,91 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 1700px;
+    max-height: fit-content;
+    
+    margin: 0 auto;
+}
+
+.navbar {
+    background-color: #8b8787;
+    color: white;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    padding: 10px;
+}
+
+.navbar ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    
+   
+}
+
+.navbar li {
+    display: inline;
+    margin-right: 20px;
+    float: left;
+}
+
+.navbar li a{
+    display: block;
+  color: white;
+  text-align: center;
+  padding: 4px 16px;
+  text-decoration: none;
+}
+
+.navbar li a:hover{
+    background-color: #111;
+}
+
+.slider {
+    height: auto;
+}
+
+.instructions,
+.fees {
+    margin-top: 20px;
+}
+
+footer {
+    background-color: #333;
+    color: #fff;
+    padding: 20px 0;
+}
+
+.footer-columns {
+    display: flex;
+    justify-content: space-between;
+}
+
+.contact,
+.subscribe {
+    width: 30%;
+    
+}
+.links{
+    width: 30%;
+    text-decoration: white;
+    text-emphasis-color: red;
+  
+}
+
+
+
+.subscribe form {
+    display: flex;
+    flex-direction: column;
+}
+
+.subscribe input {
+    margin-top: 10px;
+}
